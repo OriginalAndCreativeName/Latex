@@ -11,6 +11,46 @@
 
 
 \section*{Interest Bearing Accounts}
+(a)\newline
+$S_0=10000\newline
+S_1= S_0(1.05)\newline
+S_2 = S_1(1.05)\newline
+S_3 = S_2(1.05)\newline
+S_4 = S_3(1.05)\newline
+S_5 = S_4(1.05)\newline 
+S_n = S_{n-1}(1.05)\newline$
+\linebreak 
+\linebreak 
+(b)\newline
+$
+S_n = S_{n-1}(1.05)\newline
+S_n = 10000(1.05)^n\newline
+S_n = 10000(1+ 0.05)^n\newline
+$
+Expand $(1+ 0.05)^n$ using Binomial Theorem \newline
+$$
+S_n = 10000\sum_{k=0}^{n} {{n \choose k} 1^{k-n}+0.05^n}\newline
+$$
+Remove $1^{k-n}$ term\newline
+$$
+S_n = 10000\sum_{k=0}^{n} {{n \choose k} 0.05^n}\newline
+$$
+(c)\newline
+From part (a)
+$S_n = S_{n-1}(1.05)\newline$
+\newline
+Plugging in $S_{n-1}\newline$
+$S_n = S_{n-2}(1.05)(1.05) \newline
+S_n = S_{n-2}(1.05)^2 \newline
+$
+\newline
+Continuing yields \newline
+$S_n = S_{n-3}(1.05)^3 \newline
+S_n = S_{n-4}(1.05)^4 \newline
+S_n = S_{n-n}(1.05)^n \newline
+S_n = S_{0}(1.05)^n \newline
+S_n = 10000(1.05)^n \newline
+$
 
 \section*{Loans}
 
