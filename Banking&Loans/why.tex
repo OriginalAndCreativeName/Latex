@@ -53,6 +53,30 @@ S_n = 10000(1.05)^n \newline
 $
 
 \section*{Loans}
+To determine a series we examine a case where the loan is paid off in n payments\newline
+The amount left after first payment is given below
+$$L_0(1+\frac{r}{12})-m$$
+Where m represents the monthly payment\newline
+For the second payment, we multiply what is left by the monthly interest rate and subtract the monthly payment m again
+$$(L_0(1+\frac{r}{12})-m)(1+\frac{r}{12})-m $$
+$$L_0(1+\frac{r}{12})^2-m(1+\frac{r}{12})-m $$
+Doing the same for the third payment yields
+$$(L_0(1+\frac{r}{12})^2-m(1+\frac{r}{12})-m)(1+\frac{r}{12})-m $$
+$$L_0(1+\frac{r}{12})^3-m(1+\frac{r}{12})^2-m(1+\frac{r}{12})-m $$
+By examining the expressions one notices an emerging pattern
+$$L_0(1+\frac{r}{12})-m$$
+$$L_0(1+\frac{r}{12})^2-m(1+\frac{r}{12})-m $$
+$$L_0(1+\frac{r}{12})^3-m(1+\frac{r}{12})^2-m(1+\frac{r}{12})-m $$
+Therefore we can write a summation to represent this pattern and extend the expression to the nth payment
+$$L_0(1+\frac{r}{12})^n- \sum_{k=0}^{n-1} m(1+\frac{r}{12})^k $$
+The series represented here is geometric with common ratio $(1+\frac{r}{12})$ so we can write an expression for the sum
+$$L_0(1+\frac{r}{12})^n- \sum_{k=0}^{n-1} m(1+\frac{r}{12})^k $$
+$$L_0(1+\frac{r}{12})^n- \frac{m(1-(1+\frac{r}{12})^{n})}{1-(1+\frac{r}{12})}$$
+$$L_0(1+\frac{r}{12})^n- \frac{m(1-(1+\frac{r}{12})^{n})}{\frac{r}{12}}$$
+After n payments, it should be fully paid off so we can say that
+$$0=L_0(1+\frac{r}{12})^n- \frac{m(1-(1+\frac{r}{12})^{n})}{\frac{r}{12}}$$
+$$\frac{m(1-(1+\frac{r}{12})^{n})}{\frac{r}{12}}=L_0(1+\frac{r}{12})^n$$
+$$m=\frac{\frac{r}{12}L_0(1+\frac{r}{12})^n}{{1-(1+\frac{r}{12})^{n}}}$$
 
 \section*{Fractional Reserve Banking}
 
