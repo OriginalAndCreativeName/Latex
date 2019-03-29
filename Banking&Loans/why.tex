@@ -18,8 +18,8 @@ S_2 = S_1(1.05)=10500(1.05)=11025\newline
 S_3 = S_2(1.05)=11025(1.05)=11576.25\newline
 S_4 = S_3(1.05)=11576.25(1.05)=12115.06\newline
 S_5 = S_4(1.05)=112115.06(1.05)=12762.82\newline 
-S_n = S_{n-1}(1.05)\newline$
-\linebreak 
+S_n = S_{n-1}(1.05)\newline
+S_n = 10000(1.05)^n\newline$
 \linebreak 
 (b)\newline
 From part (a) we have\newline
@@ -30,14 +30,14 @@ S_n = 10000(1+ 0.05)^n\newline
 $
 Expand $(1+ 0.05)^n$ using Binomial Theorem \newline
 $$
-S_n = 10000\sum_{k=0}^{n} {{n \choose k} 1^{k-n}+0.05^n}\newline
+S_n = 10000\sum_{k=0}^{n} {{n \choose k} 1^{n-k}+0.05^k}\newline
 $$
 Remove $1^{k-n}$ term\newline
 $$
-S_n = 10000\sum_{k=0}^{n} {{n \choose k} 0.05^n}\newline
+S_n = 10000\sum_{k=0}^{n} {{n \choose k} 0.05^k}\newline
 $$
 (c)\newline
-From part (a)
+From part (a)\newline
 $S_n = S_{n-1}(1.05)\newline$
 \newline
 Plugging in $S_{n-1}\newline$
@@ -81,18 +81,25 @@ $$m=\frac{-\frac{r}{12}L_0(1+\frac{r}{12})^n}{{1-(1+\frac{r}{12})^{n}}}$$
 $$m=\frac{\frac{r}{12}L_0(1+\frac{r}{12})^n}{{(1+\frac{r}{12})^{n}-1}}$$
 
 \section*{Fractional Reserve Banking}
-Suppose the Federal Reserve loans out 1000 dollars to a customer, and the customer decides to deposit the same amount of money that he just owned into the same bank. It is legally required for the Federal Reserve to keep at least 10\% of that deposited money, and the rest can be used by the bank for reinvestment or other purposes.\newline
-For this case, \newline
-Bank lent out 1000, and 1000 is put back in, with 100 saved and 900 spendable for other means.\newline
-Now let's say the bank takes that 900 and reinvests it by dealing it out as a loan to another customer. That customer then puts their money from the loan back into the bank.\newline
-Now the bank is holding a total of 1000 + 900 for other people,even though it started out with only 1000 dollars. \newline
-If this continues, with the bank continuing to loan out the 90\% of the money that they are not required to keep, the total amount of money that the bank is holding for others proceeds like so \newline
+The Federal Reserve, through a process called Fractional Reserve Banking, can create money to be loaned out to citizens. \newline
+\quad Suppose the Federal Reserve loans out 1000 dollars to a customer, and the customer decides to deposit the same amount of money that he just owned into the same bank. It is legally required for the Federal Reserve to keep at least 10\% of that deposited money as security, and the rest can be used by the bank for reinvestment or other purposes.\newline
+\quad For this case, the bank lent out 1000, and 1000 is put back in, with the bank saving 100 and keeping 900 spendable for other means.\newline
+\quad Now let's say the bank takes that 900 and reinvests it by dealing it out as a loan to another customer. That customer then puts their money from the loan back into the bank.\newline
+\quad Now the bank is holding a total of 1000 + 900 for other people,even though it started out with only 1000 dollars. \newline
+\quad If this continues, with the bank continuing to loan out the 90\% of the money that they are not required to keep, the total amount of money that the bank is holding for others proceeds like so \newline
 $
 S_0 = 1000\newline
 S_1 = 1000 + 0.9*1000= 1000+ 900= 1900\newline
 S_2 = 1000 + 0.9*1000 + 0.9^2*1000= 1000 + 900 + 810=2710\newline
 S_3 = 1000 + 0.9*1000 + 0.9^2*1000 + 1000*0.9^3= 1000 + 900 + 810 + 729 = 3439\newline
-S_n = \sum_{k=0}^{n} {1000(0.9)^k}
+S_n = \sum_{k=0}^{n} {1000(0.9)^k}\newline
 $
-
+The summation detailed above fits the form of a geometric series, with common ratio (.9) and initial value 1000.\newline
+Recall that at the beginning of the process, the bank started out with only 1000 dollars. By utilizing the Fractional Reserve process, the bank can quickly multiply a money supply. \newline
+Another interesting avenue is finding out how much money the bank can possibly gain from this process. Using the fact that the sum is geometric, we can apply the formula for an infinite geometric series.
+$$\frac{a_0}{1-r}$$
+$$\frac{1000}{1-0.9}$$
+$$\frac{1000}{.1}$$
+$$10000$$
+From this one determines that at maximum, a bank can create 10x its original supply of money through this process.
 \end{document}
