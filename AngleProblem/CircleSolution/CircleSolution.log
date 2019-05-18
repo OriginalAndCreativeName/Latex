@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.13)  16 MAY 2019 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.13)  17 MAY 2019 21:56
 entering extended mode
 **./CircleSolution.tex
 (CircleSolution.tex
@@ -371,18 +371,18 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ) (CircleSolution.aux)
 \openout1 = `CircleSolution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 ("C:\Users\mzhang\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
@@ -463,74 +463,71 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 10.
 <originalTheta.png, id=1, 631.60968pt x 428.35031pt>
 File: originalTheta.png Graphic file (type png)
 <use originalTheta.png>
-Package pdftex.def Info: originalTheta.png  used on input line 26.
+Package pdftex.def Info: originalTheta.png  used on input line 17.
 (pdftex.def)             Requested size: 276.00105pt x 187.18057pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
  [1
 
 {C:/Users/mzhang/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./original
 Theta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
-<equations.png, id=12, 631.60968pt x 428.35031pt>
+<equations.png, id=13, 631.60968pt x 428.35031pt>
 File: equations.png Graphic file (type png)
 <use equations.png>
-Package pdftex.def Info: equations.png  used on input line 43.
+Package pdftex.def Info: equations.png  used on input line 31.
 (pdftex.def)             Requested size: 276.00105pt x 187.18057pt.
-<circle.png, id=13, 901.86937pt x 628.59843pt>
+<circle.png, id=14, 901.86937pt x 628.59843pt>
 File: circle.png Graphic file (type png)
 <use circle.png>
-Package pdftex.def Info: circle.png  used on input line 48.
+Package pdftex.def Info: circle.png  used on input line 36.
 (pdftex.def)             Requested size: 276.00105pt x 192.36967pt.
-[2 <./equations.png> <./circle.png>]
+ [2 <./equations.png> <./circle.png>]
 <chord.png, id=21, 901.86937pt x 630.10406pt>
 File: chord.png Graphic file (type png)
 <use chord.png>
-Package pdftex.def Info: chord.png  used on input line 54.
+Package pdftex.def Info: chord.png  used on input line 42.
 (pdftex.def)             Requested size: 276.00105pt x 192.83044pt.
  [3 <./chord.png>]
 <solution.png, id=28, 1091.07625pt x 744.7825pt>
 File: solution.png Graphic file (type png)
 <use solution.png>
-Package pdftex.def Info: solution.png  used on input line 96.
+Package pdftex.def Info: solution.png  used on input line 86.
 (pdftex.def)             Requested size: 276.00105pt x 188.39987pt.
- [4 <./solution.png>]
-(CircleSolution.aux) ) 
+
+[4 <./solution.png>] [5] (CircleSolution.aux) ) 
 Here is how much of TeX's memory you used:
  1771 strings out of 493303
  24809 string characters out of 3138853
- 81623 words of memory out of 3000000
+ 82623 words of memory out of 3000000
  5316 multiletter control sequences out of 15000+200000
  7280 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,283b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/mzhang/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/mzhang/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mzhan
-g/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
-:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/mzhang/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mzhang/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CircleSolution.pdf (4 pages, 142841 bytes).
+ 41i,6n,25p,306b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/mzhang/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/mzhang/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mzhang/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mzhang/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/mzhang/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
+sers/mzhang/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb>
+Output written on CircleSolution.pdf (5 pages, 146164 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
